@@ -1,7 +1,8 @@
 # Lil-blog-app
 A blog website where users can post new blogs, edit or delete existing blogs. Note the data is stored in the server, so no memory.
 
-Screenshots of the home page and edit page:
+Screenshots of the home page and edit page:\
+\
 <img src="./screenshot/blog_scrshot_1.png" alt="Screenshot of the home page" width="600" />
 <img src="./screenshot/blog_scrshot_2.png" alt="Screenshot of the edit page" width="600" />
 
