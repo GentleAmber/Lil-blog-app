@@ -1,0 +1,16 @@
+<%- include("partials/header.ejs") %>
+<div class="container">
+    <form action="/edit/<%= post.blogId %>" method="POST">
+        <div class="container d-flex align-items-center px-0">
+            <input
+            type="text" class="my-3 form-control" style="width: 80% !important"
+            id="blogTitle" name="blogTitle" value="<%= post.title %>"
+            required minlength="5" maxlength="70" size="80" />
+            <p class="mb-0 ms-2" id="characterCounter">70 characters left</p>
+        </div>
+        <textarea id="blogContent" name="blogContent" rows="20" class="form-control mt-2"><%= post.content %></textarea>
+        <input class="my-1" type="submit" value="Save" />
+    </form>
+</div>
+
+<%- include("partials/footer.ejs") %>
